@@ -92,7 +92,10 @@ const author = books.forEach((books) => {
 
 //Sort books from oldest to most recent
 
-books.sort()
+const sort = books.sort(function (a, b) {
+  a.publishDate - b.publishDate;
+});
+console.log(sort);
 //sort books alphabetically
 titles.sort;
 
