@@ -109,12 +109,12 @@ const sortA = titles.sort((a, b) => {
 });
 console.log(sortA);
 //Find who wrote War and Peace
-function warpeace(book) {
-  if ((books.name = "War And Peace")) {
-    return book.authorFirst, book.authorLast;
-  }
-}
-console.log(books.filter(warpeace));
+const authorwar = books.forEach((books) => {
+  books.filter((books.name = "War and Peace"));
+  return books.authorFirst, books.authorLast;
+});
+
+console.log(authorwar);
 //how many books were written before 1900?
 books.filter(function (x) {
   return x < 1900;
